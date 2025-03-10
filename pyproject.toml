@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "etl-101-data-spark"
+version = "0.1.0"
+description = ""
+authors = ["Aline Silveira <aline@outlook.ie>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyspark = "^3.5.5"
+pandas = "^2.2.3"
+pyarrow = "^19.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
